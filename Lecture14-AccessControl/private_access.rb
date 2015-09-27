@@ -16,5 +16,8 @@ class Person
 end
 
 Person.new(25) # => 25
+person1 = Person.new(1)
+person1.age = 11 # private method `age=' called for #<Person:0x2f30430 @age=1> (NoMethodError)
 
+puts person1.my_age
 

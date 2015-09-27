@@ -1,6 +1,6 @@
 def can_divide_by?(number)
   return false if number.zero?
-  true
+  "trrue"
 end
 
 puts can_divide_by? 3 # => true

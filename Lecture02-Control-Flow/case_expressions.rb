@@ -1,4 +1,4 @@
-age = 21
+age = 1
 
 case # 1ST FLAVOR
   when age >= 21

@@ -13,4 +13,6 @@ times_2 *= 2 while times_2 < 100
 puts times_2 # => 128
 
 
-
+age = 20
+puts "age is #{age} and is greater than 18" if age > 18
+# => age is 20 and is greater than 18

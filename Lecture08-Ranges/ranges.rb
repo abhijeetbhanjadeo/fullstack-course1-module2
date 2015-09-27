@@ -1,8 +1,9 @@
-some_range = 1..3 
-puts some_range.max # => 3 
-puts some_range.include? 2 # => true 
+some_range = 1..4 
+puts some_range.min # => 1 
+puts some_range.include? 0 # => false 
 
-puts (1...10) === 5.3 # => true 
+puts (1..10) === 10.1 # => false
+puts (1...10) === 9.9 # => true 
 puts ('a'...'r') === "r" # => false (end-exclusive) 
 
 p ('k'..'z').to_a.sample(2) # => ["k", "w"]

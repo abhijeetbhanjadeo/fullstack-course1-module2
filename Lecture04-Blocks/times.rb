@@ -1,4 +1,4 @@
-1.times { puts "Hello World!" }   
+1.times { |index| puts "Hello World!" + index.to_s }   
 # => Hello World! 
 
 2.times do |index| 

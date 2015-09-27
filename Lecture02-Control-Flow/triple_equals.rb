@@ -8,8 +8,10 @@ if "coursera" === "coursera"
 end
 # => also works
 
-if Integer === 21
+if Integer === 21.0
   puts "21 is an Integer"
+else
+	puts "is not an Integer"
 end
 # => 21 is an Integer
 

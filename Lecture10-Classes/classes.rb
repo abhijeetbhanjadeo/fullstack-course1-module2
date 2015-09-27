@@ -2,6 +2,7 @@ class Person
   def initialize (name, age) # "CONSTRUCTOR" 
     @name = name 
     @age = age 
+    get_info
   end 
   def get_info 
     @additional_info = "Interesting" 

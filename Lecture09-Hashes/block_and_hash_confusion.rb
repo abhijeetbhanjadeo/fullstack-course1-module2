@@ -13,4 +13,7 @@ puts a_hash # => {:one=>"one"}
 puts ({ :one => "one" }) # => {:one=>"one"} 
 
 # Or drop the {} altogether... 
-puts one: "one"# => {:one=>"one"} 
+puts one: "one"# => {:one=>"one"}
+
+
+puts :two => "two" # => {:two=>"two"}

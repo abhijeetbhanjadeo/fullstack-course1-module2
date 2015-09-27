@@ -7,7 +7,7 @@ class CalculatorTest < Test::Unit::TestCase
   end
 
   def test_divide_by_zero
-    assert_raise ZeroDivisionError do 
+    assert_raises ZeroDivisionError do 
       @calc.divide(1, 0)
     end
   end

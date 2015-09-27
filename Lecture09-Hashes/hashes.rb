@@ -13,4 +13,10 @@ end
 # => Key: color value: red 
 # => Key: background value: Blue
 
+p editor_props["test"] # => nil object, so need to use p in place of puts/print to display it
 
+new_hash_dflt_zero = Hash.new(0) # => creating Hash using Hash.new(0), so defaults to 0
+puts new_hash_dflt_zero[0] # => 0
+
+new_hash = Hash.new() # => creating Hash using Hash.new(), so defaults to nil
+p new_hash[0] # => 0
